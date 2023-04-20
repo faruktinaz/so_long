@@ -6,7 +6,8 @@ Bu projede, mlx kitaplığına ve genel olarak kullanıcı arayüzüne aşina ol
 
 ---
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/114104599/233431332-e640416b-691d-4087-b6bc-8c2be6cbb6dd.gif)
+![ewe](https://user-images.githubusercontent.com/114104599/233466969-a04b670c-538f-492d-9596-d42a9cd0b925.gif)
+
 
 ## Bonus part hakkında
 
