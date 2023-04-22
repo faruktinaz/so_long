@@ -50,7 +50,7 @@ int	main(void)
 {
 	void	*mlx;
 
-	mlx = mlx_init();mlx_init()
+	mlx = mlx_init();
 }**
 ```
 
