@@ -6,7 +6,7 @@
 /*   By: ogenc <ogenc@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/27 23:31:50 by ogenc             #+#    #+#             */
-/*   Updated: 2023/04/15 13:52:44 by ogenc            ###   ########.fr       */
+/*   Updated: 2023/04/25 23:51:07 by ogenc            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 # include <fcntl.h>
 # include <stdlib.h>
 # include <stdio.h>
-# include "../../libary/42-printf/ft_printf.h"
-# include "../../libary/42-get_next_line/get_next_line.h"
-# include "../../libary/mlx/mlx.h"
+# include "../../library/42-printf/ft_printf.h"
+# include "../../library/42-get_next_line/get_next_line.h"
+# include "../../library/mlx/mlx.h"
 
 typedef struct s_data
 {
