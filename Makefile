@@ -6,7 +6,7 @@
 #    By: ogenc <ogenc@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/27 23:31:43 by ogenc             #+#    #+#              #
-#    Updated: 2023/04/15 14:09:47 by ogenc            ###   ########.fr        #
+#    Updated: 2023/04/25 23:50:17 by ogenc            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,10 +39,10 @@ SRCBS = ./srcs/bonus/main_bonus.c \
 NAME = so_long
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-LFLAGS = -framework AppKit -framework OpenGL -L./libary/mlx -lmlx
-MLX = ./libary/mlx/libmlx.a
-FT_PRINTF = ./libary/42-printf/libftprintf.a
-GET_NEXT_LINE = ./libary/42-get_next_line/get_next_line.c ./libary/42-get_next_line/get_next_line_utils.c
+LFLAGS = -framework AppKit -framework OpenGL -L./library/mlx -lmlx
+MLX = ./library/mlx/libmlx.a
+FT_PRINTF = ./library/42-printf/libftprintf.a
+GET_NEXT_LINE = ./library/42-get_next_line/get_next_line.c ./library/42-get_next_line/get_next_line_utils.c
 RM = rm -rf
 LIBC = ar -rcs
 
@@ -57,17 +57,17 @@ bonus : $(SRCBS) $(MLX) $(FT_PRINTF) $(GET_NEXT_LINE)
 	@echo "-*-*-*- OK -*-*-*-"
 
 $(MLX) :
-	@make -C ./libary/mlx
+	@make -C ./library/mlx
 
 $(FT_PRINTF) :
-	@make -C ./libary/42-printf
+	@make -C ./library/42-printf
 
 clean:
 
 fclean: clean
 	@rm -rf $(NAME)
-	@make clean -C ./libary/mlx
-	@make fclean -C ./libary/42-printf
+	@make clean -C ./library/mlx
+	@make fclean -C ./library/42-printf
 
 re: fclean all
 
