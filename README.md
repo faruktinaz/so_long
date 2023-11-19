@@ -31,10 +31,6 @@ Oyuncu W A S D tuşlarından birine bastığında 64 * 64 piksel olarak yerleşt
 
 ---
 
----
-
----
-
 Daha önce kodladığım **get_next_line** fonksiyonu ve **ft_printf** fonksiyonunu projemde yer almakta. İstediğimiz gibi düzenleyebildiğimiz map’i get_next_line fonksiyonunu kullanarak okuyorum ve struct yapısında ‘char **map’ dizisinin içerisine satır ve sütün olacak şekilde map’i okuyorum.
 
 Yüzeysel olarak map’i nasıl okudugumun üstünden geçtigime göre biraz mlx kütüphanesinin içeriğinden bahsedebilirim.
